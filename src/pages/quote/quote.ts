@@ -11,8 +11,7 @@ export class QuotePage {
 	person: string;
 	text: string;
 
-  constructor(public navCtrl: NavController, 
-  						public navParams: NavParams,
+  constructor(public navParams: NavParams,
   						private viewCtrl: ViewController) {
   }
 
