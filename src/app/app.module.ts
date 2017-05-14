@@ -9,14 +9,15 @@ import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { LibraryPage } from '../pages/library/library';
 import { FavoritesPage } from '../pages/favorites/favorites';
-
+import { QuotesPage } from '../pages/quotes/quotes';
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     TabsPage,
     LibraryPage,
-    FavoritesPage
+    FavoritesPage,
+    QuotesPage
   ],
   imports: [
     BrowserModule,
@@ -28,7 +29,8 @@ import { FavoritesPage } from '../pages/favorites/favorites';
     HomePage,
     TabsPage,
     LibraryPage,
-    FavoritesPage
+    FavoritesPage,
+    QuotesPage
   ],
   providers: [
     StatusBar,
