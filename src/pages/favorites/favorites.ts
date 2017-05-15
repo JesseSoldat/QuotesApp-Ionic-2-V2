@@ -41,11 +41,15 @@ export class FavoritesPage {
   	});
   	this.quotes.splice(position, 1);
   }
+  //#1
+  //HTML [color]="getBackground()"
+  // getBackground() {
+  //   return this.settingsService.isAltBackground() ? 'altQuoteBackground' : 'quoteBackground';
+  // }
 
-  getBackground() {
-    return this.settingsService.isAltBackground() ? 'altQuoteBackground' : 'quoteBackground';
-  }
-
+  //#2
+  //HTML color="quoteBackground"
+  //[ngClass]="{alt: isAltBackground()}"
   isAltBackground() {
     return this.settingsService.isAltBackground();
   }
